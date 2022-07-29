@@ -23,10 +23,10 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(itu.jpg);
+  padding: 40px 0 100px 0;
+  background-image: url(https://cdn.wallpapersafari.com/2/43/kAO96s.png);
   background-size: cover;
-  color: white;
+  color: #043e54;
   text-align: center;
 }
 
@@ -52,7 +52,7 @@ a {
 }
 
 .signup {
-  background-color: #239b76;
+  background-color: #69116a;
 }
 
 .facebook {
@@ -84,7 +84,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgb(42 163 183);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -152,6 +152,11 @@ header {
 
 .heading h2 {
   font-weight: normal;
+    background: #957492;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+ 
 }
 
 .lesson {
@@ -193,10 +198,10 @@ header {
 }
 
 .message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+      padding: 15px 40px;
+    background-color: #db351a;
+    cursor: pointer;
+    box-shadow: 0 7px #bd3c16;
 }
 
 .message:active {
@@ -210,13 +215,17 @@ footer img {
 }
 
 footer p {
-  color: #b3aeb5;
+  color: #fcf3ff;
   font-size: 12px;
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+padding-top: 30px;
+    padding-bottom: 20px;
+    background: rgb(42 163 183);
+    margin: 0 auto;
+    text-align: center;
+    color: white;
 }
 .logo{
 color:white;
