@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progate</title>
+    <link rel="stylesheet" href="akhir.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          
+          <h2 class="logo">MENG_HADEH</h2>
+        </div>
+       
+        
+        <div class="header-right">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction();"><i class="fa fa-bars"></i></a>
+            <div id="myLinks">
+                <a href="#">Pelajaran</a>
+                <a href="#anggota">Daftar</a>
+                <a href="#" class="login">Log in</a>
+            </div>
+        </div>
+       
+      </div>
+    </header>
+     <div class="top-wrapper">
+  
+      <div class="container">
+        <h1>PROFIL KELOMPOK.</h1>
+        <h1>MENGENAL LEBIH DALAM TENTANG KITA.</h1>
+        <p>Website ini adalah website informasi tentang kelompok.</p>
+        <p>Dan website ini juga bertujuan untuk menyelesaikan Proyek tim.</p>
+        <div class="btn-wrapper">
+          <a href="#anggota" class="btn signup">Daftar Anggota Team</a>
+          <!-- <p>atau</p>
+          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a> -->
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <section id="anggota"></section>
+        <div class="heading">
+          <h2>Daftar anggota kelompok MENG_HADEH</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="hayo1.png">
+               <p>Sahrudin Fiqri M</p>
+            </div>
+             <p class="text-contents">Saya adalah mahasiswa Informatika, yang mempunyai semangat tinggi dalam dunia pemograman </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://scontent.fcgk16-1.fna.fbcdn.net/v/t1.18169-9/11196278_980236135321387_3377284571350417017_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=IZM4k8qx7B4AX-wRruN&_nc_ht=scontent.fcgk16-1.fna&oh=00_AT9AEuv8I0A43ozgVSvbYR7ymakcnoGeUkLeuL90Ok_ywQ&oe=63072AC3">
+              <p>Nyoman Aditya Kusuma Wardana</p>
+            </div>
+            <p class="text-contents">Staff Teknis Dinas Komunikasi, Informatika, Persandian dan Statistik Kabupaten Buleleng</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png">
+              <p>M. Vardani</p>
+            </div>
+            <p class="text-contents">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png">
+              <p>Nurul Hafnati</p>
+            </div>
+            <p class="text-contents">Bahasa skrip open source yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png">
+              <p>Supindo Arrafat</p>
+            </div>
+            <p class="text-contents">Bahasa skrip open source yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Apakah anda ingin mengenal jauh tentang kami?</h2>
+          <h3>klik (lanjut) bagian dibawah untuk melanjutkan!</h3>
+        </div>
+        <span class="btn message">Lanjut</span>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img src="eta.png">
+        <p>Kerja keras, dan Kerja cerdas.</p>
+      </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+  </body>
+</html>

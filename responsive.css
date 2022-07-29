@@ -12,6 +12,13 @@
     .heading h2 {
       font-size: 20px;
     }
+
+    .header-right #myLinks {
+      display: block;
+    }
+    .header-right a.icon {
+      display: none;
+    }
     
  
   }
@@ -39,12 +46,19 @@
     }
     
     /* Tambahkan CSS untuk header-right */
-    .header-right {
+    /* .header-right {
       display:none;
+    } */
+
+    .header-right #myLinks {
+      display: none;
     }
-    .menu-icon{
-      display:block;
+    .header-right a.icon {
+      display: block;
     }
+    
+
+  
     
     /* Tambahkan CSS untuk menu-icon */
     
